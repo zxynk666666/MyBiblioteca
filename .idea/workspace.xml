@@ -139,7 +139,7 @@
       <file leaf-file-name="Application.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="383" selection-end="383" vertical-scroll-proportion="0.36448598">
+            <state line="30" column="67" selection-start="775" selection-end="775" vertical-scroll-proportion="0.72897196">
               <folding />
             </state>
           </provider>
@@ -751,7 +751,11 @@
       <created>1343737036213</created>
       <updated>1343737036213</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactor">
+      <created>1343738108040</created>
+      <updated>1343738108040</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -928,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="383" selection-end="383" vertical-scroll-proportion="0.36448598">
+        <state line="30" column="67" selection-start="775" selection-end="775" vertical-scroll-proportion="0.72897196">
           <folding />
         </state>
       </provider>
