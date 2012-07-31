@@ -18,7 +18,6 @@ public class Biblioteca {
 
         while (true) {
             menu.showMenuList();
-            menu.selectMenuOption(biblioteca.getMenuSelection());
         }
     }
 

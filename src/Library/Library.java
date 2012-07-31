@@ -1,7 +1,7 @@
 package Library;
 
-import Book.Book;
-import Movie.Movies;
+import Resources.Book.Book;
+import Resources.Movie.Movies;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,11 +11,11 @@ public class Library {
     public Map initBooks() {
         Map<Integer, Book> bookHashMap = new HashMap<Integer, Book>();
 
-        Book book_1 = new Book("Book_1");
+        Book book_1 = new Book("Book_1", false);
         bookHashMap.put(1, book_1);
-        Book book_2 = new Book("Book_2");
+        Book book_2 = new Book("Book_2", false);
         bookHashMap.put(2, book_2);
-        Book book_3 = new Book("Book_3");
+        Book book_3 = new Book("Book_3", false);
         bookHashMap.put(3, book_3);
 
         return bookHashMap;

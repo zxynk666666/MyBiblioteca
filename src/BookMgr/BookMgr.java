@@ -1,6 +1,6 @@
 package BookMgr;
 
-import Book.Book;
+import Resources.Book.Book;
 import MyOutputstream.MyOutStream;
 
 import java.util.Map;
@@ -34,12 +34,18 @@ public class BookMgr {
     public boolean reserveBook(int whichBook) {
         if(!(_books.get(whichBook).IsReserved())) {
             _books.get(whichBook).setBookReserved();
-            _outputStream.myPrint("Thank You! Enjoy the book.\n");
             return true;
         } else {
-            _outputStream.myPrint("Sorry we don't have that book yet.\n");
             return false;
         }
+    }
+
+    public void reserveSuccessPrompter() {
+        System.out.println("Thank You! Enjoy the book.");
+    }
+
+    public void reserveFailPrompter() {
+        System.out.println("Sorry we don't have that book yet.\n");
     }
 
     public int selectBook() {

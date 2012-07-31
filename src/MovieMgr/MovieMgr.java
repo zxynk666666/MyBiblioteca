@@ -1,6 +1,6 @@
 package MovieMgr;
 
-import Movie.Movies;
+import Resources.Movie.Movies;
 import MyOutputstream.MyOutStream;
 
 import java.util.Map;

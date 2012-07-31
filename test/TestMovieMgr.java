@@ -1,5 +1,5 @@
 import MovieMgr.MovieMgr;
-import Movie.Movies;
+import Resources.Movie.Movies;
 import MyOutputstream.MyOutStream;
 import org.junit.Test;
 
@@ -9,6 +9,7 @@ import java.util.Map;
 import static junit.framework.Assert.assertEquals;
 
 public class TestMovieMgr {
+
     @Test
     public void viewAllMoviesTest() {
         MyOutStream testOutputStream = new MyOutStream();

@@ -1,4 +1,4 @@
-package Movie;
+package Resources.Movie;
 
 public class Movies {
 
