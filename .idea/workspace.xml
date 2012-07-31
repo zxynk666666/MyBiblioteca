@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24d5643f-232e-4639-9a30-365348434053" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TestMovie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/Book/Book.java" afterPath="$PROJECT_DIR$/src/Resources/Book/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ResourcesManager/BookMgr/BookMgr.java" afterPath="$PROJECT_DIR$/src/ResourcesManager/BookMgr/BookMgr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ResourcesManager/Library/Library.java" afterPath="$PROJECT_DIR$/src/ResourcesManager/Library/Library.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/TestBook.java" afterPath="$PROJECT_DIR$/test/TestBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/TestBookMgr.java" afterPath="$PROJECT_DIR$/test/TestBookMgr.java" />
     </list>
     <ignored path="MyBiblioteca.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,7 +139,7 @@
       <file leaf-file-name="Application.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="24" selection-start="659" selection-end="659" vertical-scroll-proportion="0.96209913">
+            <state line="24" column="48" selection-start="611" selection-end="611" vertical-scroll-proportion="0.8746356">
               <folding />
             </state>
           </provider>
@@ -745,12 +739,16 @@
       <created>1343735946351</created>
       <updated>1343735946351</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor">
+      <created>1343736849466</created>
+      <updated>1343736849466</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="705" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -766,7 +764,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24918832" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -922,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="659" selection-end="659" vertical-scroll-proportion="0.96209913">
+        <state line="24" column="48" selection-start="611" selection-end="611" vertical-scroll-proportion="0.8746356">
           <folding />
         </state>
       </provider>
