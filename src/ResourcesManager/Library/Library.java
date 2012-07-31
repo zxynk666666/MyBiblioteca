@@ -35,7 +35,7 @@ public class Library {
         moviesHashMap.put(3, movie_3);
         Movie movie_4 = new Movie("Movie_4", "Director_4", 4);
         moviesHashMap.put(4, movie_4);
-        Movie movie_5 = new Movie("Movie_5", "Director_5", 5);
+        Movie movie_5 = new Movie("Movie_5", "Director_5", 0);
         moviesHashMap.put(5, movie_5);
 
         return moviesHashMap;

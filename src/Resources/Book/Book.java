@@ -10,15 +10,11 @@ public class Book {
         this.isReserved = isReserved;
     }
 
-    public void setBookName(String bookname) {
-        this.bookName = bookname;
-    }
-
     public String getBookName() {
         return bookName;
     }
 
-    public boolean IsReserved() {
+    public boolean isReserved() {
        return isReserved;
     }
 

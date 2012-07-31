@@ -20,7 +20,7 @@ public class TestBookMgr {
         assertTrue(testBookMgr.reserveBook(1));
 
         Book testBook_2 = new Book("TestBook_2", false);
-        book.put(2, testBook_1);
+        book.put(2, testBook_2);
         testBookMgr.reserveBook(2);
 
         assertFalse(testBookMgr.reserveBook(2));

@@ -6,15 +6,15 @@ import java.util.Map;
 
 public class BookMgr {
 
-    private Map<Integer, Book> _books;
+    private Map<Integer, Book> books;
 
     public BookMgr(Map<Integer, Book> books) {
-        this._books = books;
+        this.books = books;
     }
 
     public boolean reserveBook(int whichBook) {
-        if(!(_books.get(whichBook).IsReserved())) {
-            _books.get(whichBook).setBookReserved();
+        if(!(books.get(whichBook).isReserved())) {
+            books.get(whichBook).setBookReserved();
             return true;
         } else {
             return false;
