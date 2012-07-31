@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24d5643f-232e-4639-9a30-365348434053" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ResourcesManager/MovieMgr/MovieMgr.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ResourcesManager/BookMgr/BookMgr.java" afterPath="$PROJECT_DIR$/src/ResourcesManager/BookMgr/BookMgr.java" />
     </list>
     <ignored path="MyBiblioteca.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -607,7 +605,11 @@
       <created>1343734080929</created>
       <updated>1343734080929</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor">
+      <created>1343734391918</created>
+      <updated>1343734391918</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -673,7 +675,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -690,6 +692,7 @@
     <MESSAGE value="Some changes for codes" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="add functions" />
+    <MESSAGE value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
