@@ -63,7 +63,7 @@
       <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MenuOption/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="75" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
+            <state line="17" column="26" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +139,7 @@
       <file leaf-file-name="Application.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="74" selection-start="206" selection-end="206" vertical-scroll-proportion="0.26239067">
+            <state line="17" column="30" selection-start="383" selection-end="383" vertical-scroll-proportion="0.36448598">
               <folding />
             </state>
           </provider>
@@ -747,7 +747,11 @@
       <created>1343736864003</created>
       <updated>1343736864003</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor">
+      <created>1343737036213</created>
+      <updated>1343737036213</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -768,7 +772,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24918832" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -855,15 +859,6 @@
         <state line="6" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuOption/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="75" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/Book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="20" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
@@ -922,9 +917,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuOption/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="74" selection-start="206" selection-end="206" vertical-scroll-proportion="0.26239067">
+        <state line="17" column="30" selection-start="383" selection-end="383" vertical-scroll-proportion="0.36448598">
           <folding />
         </state>
       </provider>
