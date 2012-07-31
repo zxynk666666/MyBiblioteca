@@ -3,7 +3,6 @@ package ResourcesManager.BookMgr;
 import Resources.Book.Book;
 
 import java.util.Map;
-import java.util.Scanner;
 
 public class BookMgr {
 
@@ -20,20 +19,5 @@ public class BookMgr {
         } else {
             return false;
         }
-    }
-
-    public void reserveSuccessPrompter() {
-        System.out.println("Thank You! Enjoy the book.");
-    }
-
-    public void reserveFailPrompter() {
-        System.out.println("Sorry we don't have that book yet.\n");
-    }
-
-    public int selectBook() {
-        Scanner input = new Scanner(System.in);
-        int selection = input.nextInt();
-
-        return selection;
     }
 }
