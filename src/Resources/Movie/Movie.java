@@ -1,12 +1,12 @@
 package Resources.Movie;
 
-public class Movies {
+public class Movie {
 
     private String _movieName;
     private String _director;
     private int _rate;
 
-    public Movies(String movieName, String director, int rate) {
+    public Movie(String movieName, String director, int rate) {
         this._movieName = movieName;
         this._director = director;
         this._rate = rate;

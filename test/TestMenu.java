@@ -3,7 +3,7 @@ import org.junit.Test;
 public class TestMenu {
 
     @Test
-    public void selectMenuOption() {
+    public void selectMenuOptionTest() {
 
     }
 }

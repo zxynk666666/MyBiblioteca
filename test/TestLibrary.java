@@ -1,6 +1,6 @@
 import Resources.Book.Book;
-import Library.Library;
-import Resources.Movie.Movies;
+import ResourcesManager.Library.Library;
+import Resources.Movie.Movie;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -22,7 +22,7 @@ public class TestLibrary {
 
     @Test
     public void initMoviesTest() {
-        Map<Integer, Movies> movies = new HashMap<Integer, Movies>();
+        Map<Integer, Movie> movies = new HashMap<Integer, Movie>();
         movies = testLibrary.initMovies();
 
         assertEquals("Movie_1", movies.get(1).getMovieName());

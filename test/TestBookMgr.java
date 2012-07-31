@@ -1,5 +1,5 @@
 import Resources.Book.Book;
-import BookMgr.BookMgr;
+import ResourcesManager.BookMgr.BookMgr;
 import org.junit.Test;
 
 import java.util.HashMap;
