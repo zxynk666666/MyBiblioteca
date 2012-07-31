@@ -2,10 +2,12 @@ package ResourcesManager.Library;
 
 import Resources.Book.Book;
 import Resources.Movie.Movie;
+import ResourcesManager.BookMgr.BookMgr;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Library {
 
@@ -62,6 +64,18 @@ public class Library {
             counter = entry.getKey();
             movie = (Movie) entry.getValue();
             System.out.println(counter + ". " + movie.getMovieName() + " " + movie.getDirector() + " " + movie.getRate());
+        }
+    }
+
+    public void dealWithBookSelection(Map books) {
+        Scanner input = new Scanner(System.in);
+        int whichBook = input.nextInt();
+
+        BookMgr bookMgr = new BookMgr(books);
+        if(bookMgr.reserveBook(whichBook)) {
+            System.out.println("Thank You! Enjoy the book.");
+        } else {
+            System.out.println("Sorry we don't have that book yet.");
         }
     }
 }
