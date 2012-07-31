@@ -9,8 +9,6 @@ import java.util.Map;
 
 public class Library {
 
-
-
     public Map initBooks() {
         Map<Integer, Book> bookHashMap = new HashMap<Integer, Book>();
 

@@ -8,8 +8,6 @@ public class Menu {
 
 
     Library myLibrary = new Library();
-    Map allBooks = myLibrary.initBooks();
-    Map allMovies = myLibrary.initMovies();
 
     public void showMenuList() {
         System.out.println("1. View all boos.");
@@ -17,13 +15,13 @@ public class Menu {
         System.out.println("3. Check ID.");
     }
 
-    public void selectMenuOption(int selection) {
+    public void selectMenuOption(int selection, Map books, Map movies) {
         switch (selection) {
             case 1:
-                myLibrary.showBooks(allBooks);
+                myLibrary.showBooks(books);
                 break;
             case 2:
-                myLibrary.showMovies(allMovies);
+                myLibrary.showMovies(movies);
                 break;
             case 3:
                 break;

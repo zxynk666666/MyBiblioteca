@@ -1,7 +1,10 @@
 package Application;
 
 import MenuOption.Menu;
+import ResourcesManager.Library.Library;
 import UserOperation.UserOperation;
+
+import java.util.Map;
 
 public class Application {
 
@@ -14,12 +17,15 @@ public class Application {
         Application application = new Application();
         Menu menu = new Menu();
         UserOperation userOperation = new UserOperation();
+        Library library = new Library();
+        Map allBooks = library.initBooks();
+        Map allMovies = library.initMovies();
 
         application.showWelcome();
 
         while (true) {
             menu.showMenuList();
-            menu.selectMenuOption(userOperation.getUserSelection());
+            menu.selectMenuOption(userOperation.getUserSelection(), allBooks, allMovies);
         }
     }
 }
